@@ -2,20 +2,30 @@
 <html lang="en">
     <head>
         <title>Google</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="icon" href="google.png">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
             <nav>
-                <a href="images.html">Image Search</a>
-                <a href="advance.html">Advanced Search</a>
+                <ul>
+                    <li><a href="images.html">Image Search</a></li>
+                    <li><a href="advance.html">Advanced Search</a></li>
+                </ul>
             </nav>
         </header>
         <body>
-            <form action="https://google.com/search">
-                <input type="search" name="q" placeholder="Enter your search query"><br>
-                <input type="button" value="Google Search">
-                <input type="button" value="I'm Feeling lucky">
-            </form>
+            <div>
+                <form action="https://google.com/search">
+                    <center>
+                        <input type="text" maxlength="2048" name="q" style="background-image: url('mic.png'); background-size: 15px;background-repeat: no-repeat; background-position: 640px 10px;"><br><br>
+                        <input type="submit" aria-label="Google Search" value="Google Search" name="btnK">
+                        <input type="submit" aria-label="I'm Feeling lucky" value="I'm Feeling lucky" name="btnI">
+                    </center>
+                </form>
+            </div>
         </body>
     </body>
 </html>
