@@ -1,3 +1,7 @@
+nav
+{
+   display: inline-flexbox;
+}
 nav ul
  {
     list-style-type: none;
@@ -28,7 +32,7 @@ nav li a:hover
 body
  {
     background-color: white;
-    background-image: url(bg.jpg);
+    background-image: url(index.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 290px;
@@ -37,7 +41,7 @@ body
  }
 input[type=text]
  {
-    width: 675px;
+    width: 45%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
