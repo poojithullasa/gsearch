@@ -1,13 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>
             Google Images
         </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="icon" href="google.png">
+        <link rel="stylesheet" href="images.css">
     </head>
     <body>
-        <form action="https://images.google.com/images">
-            <input type="search" name="q">
-        </form>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Google Search</a></li>
+                    <li><a href="advance.html">Advanced Search</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form action="https://images.google.com/images">
+                <center><input type="text" name="q" style="background-image: url('mic.png'); background-size: 15px;background-repeat: no-repeat; background-position: right; background-origin: content-box;"></center>
+            </form>
+        </main>
     </body>
 </html>
