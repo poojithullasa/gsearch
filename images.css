@@ -43,18 +43,20 @@ input[type=text]
  {
     width: 40%;
     padding: 12px 20px;
-    margin: 8px 0;
     box-sizing: border-box;
     border-radius: 30px;
     border: 1px;
     border-color: #dcdcdc;
     border-style: solid;
     color: black;
+    margin-left: 20px;
     font-size: 16px;
-    background-image: url('mic.png');
-    background-size: 15px;
+    background: url('mic.png'), url('cam.png'),url('sea.jpg');
+    background-size: 15px,25px,20px;
+    background-color: white;
     background-repeat: no-repeat;
-    background-origin: content-box;
+    background-origin: content-box,content-box,content-box;
+    background-position: 92%,85%,right;
  }
 input[type=text]:hover
  {
