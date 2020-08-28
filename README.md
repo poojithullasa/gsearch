@@ -1,6 +1,6 @@
 # Project 0
 ## Design a Similar front-end like Google Search, Google Image Search, and Google Advanced Search.
-### Preview page :- https://poojithullasa.github.io/search.github.io/
+### Preview page :- https://poojithullasa.github.io/gsearch/
 Specification
 Your website must meet the following requirements.
 
